@@ -1,0 +1,56 @@
+body {
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0HBgkIBw4SBgkGBg0FBgYGDBAICRANFBEWFhQRExMYHCggGBolGxMVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0FFSsZExkrKysrKysrLSsrKysrKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKIBNgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAwQBBf/EABYQAQEBAAAAAAAAAAAAAAAAAAASEf/EABgBAQEBAQEAAAAAAAAAAAAAAAADAgYF/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/APEAeo5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSCGiCGa1GeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeHV4CkaIIXghKqRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCCF4IKRCBeHSkXghoghOqRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnh1eApGiCF4ITqsQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgheCCkQgXgKRokleCE6pEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJJXggpEJF4CkaZJXghKqRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCSV4IKRCReApGiCGiCE6rGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeBogKRoghoghOqRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnghoggpGeCGiCCkZ4IaIIKRnhxphwpFsMdGG3MMdAcwx0BzDHQHMMdAcwx0BzDHQHMMdAcwx0BzDHQHMMdAcwx0BzDHQHMMdAcwx0BzDHQHMMdAcwx0BzDHQHMdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//Z');
+    background-position:right center;
+    background-size: 1000px 850px;
+    text-align: center;
+    }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+    }
+
+.form1 {
+    display: inline-block;
+    text-align: center;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+
+#table {
+display: table;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+.caption {
+    display: block;
+    width:100%;
+    background: #64e0ef;
+    height: 55px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 55px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    box-sizing: border-box;
+}
+.cell { 
+    display: block;
+    border: bold;
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #39CCCC;
+}
+

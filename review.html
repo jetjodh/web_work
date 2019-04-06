@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meme Review</title>
+    <script src = 'review.js'></script>
+    <link rel="stylesheet" type="text/css" href="review.css">
+</head>
+
+<body>
+    <h1>Welcome to Jodh's Reviews!</h1>
+</body>
+<br>
+
+<table id = 'table1' align="center" width=50% cellpadding="10" cellspacing="10"  border="1">
+
+    <tr>
+        <bold><th colspan="2"><div class='caption'>Category</div></th></bold>
+        
+    </tr>
+
+    <tr>
+        <td class='cell primrary'>Movies</td>
+        <td class='cell'>Gaming Peripherals</td>
+    </tr>
+
+    <tr>
+        <td class='cell'> TV Series </td>
+        <td class='cell'> Gaming PCs </td>
+
+    </tr>
+
+    <tr>
+        <td class='cell'> Memes </td>
+        <td class='cell'> Games </td>
+    </tr>
+
+</table>
+<br>
+<form class="form1" action="Register" method="post">
+    <fieldset id = "f">
+        <fieldset id = "f1">
+    Name :
+    <input type="text" name="Name" placeholder="example: Jack" />
+    <br>
+    <br> E-mail :
+    <input type="text" name="email" placeholder="example@jet.com" />
+    <br>
+    <br> Mobile:
+    <input type="tel" name = "tel" placeholder="+91-8888888888">
+    <br>
+    <input type="submit" id='validate' value="Login" />
+    <br>
+</fieldset>
+<fieldset  class = "f2">
+        <legend><h2>Select the category you want to submit the review in:</h2> </legend>
+        <label>Movies:
+            <input type="radio" value="radio1" name="checkgroup[]" />
+        </label>
+        <br>
+
+        <label>TV Series:
+            <input type="radio" value="radio2" name="checkgroup[]" />
+        </label>
+        <br>
+
+        <label>Restaurants:
+            <input type="radio" value="radio3" name="checkgroup[]" />
+        </label>
+        <br>
+
+        <label>Gaming Peripherals:
+            <input type="radio" value="radio4" name="checkgroup[]" />
+        </label>
+        <br>
+
+        <label>Gaming PCs:
+            <input type="radio" value="radio4" name="checkgroup[]" />
+        </label>
+        <br>
+
+        <label>Games:
+            <input type="radio" value="radio4" name="checkgroup[]" />
+        </label>
+        <br>
+    </fieldset>
+    <fieldset id = "f3">
+     <label>Enter your Review!
+        <br><input type="text" >
+     </label>   
+    <legend><h2>Click the button below to submit:</h2> </legend>
+
+    <input type="submit" value="Submit" name="review"/>
+</fieldset>
+</fieldset></form>
+</html>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="review.xsl"?>
+<review_list>
+<Movies>
+    <movie>
+        <title>The Shawshank Redemption</title>
+        <director>Frank Darabont</director>
+        <genre>Drama</genre>
+        <releaseYear>1994</releaseYear>
+    </movie>
+    
+    <movie>
+        <title>The Dark Knight</title>
+        <director>Christopher Nolan</director>
+        <genre>Action, Crime, Drama</genre>
+        <releaseYear>2008</releaseYear>
+    </movie>
+
+    <movie>
+        <title>12 Angry Men</title>
+        <director> Sidney Lumet</director>
+        <genre>Drama</genre>
+        <releaseYear>1957</releaseYear>
+    </movie>
+
+    <movie>
+        <title>Inception</title>
+        <director>Christopher Nolan</director>
+        <genre>Action, Adventure, Sci-Fi </genre>
+        <releaseYear>2010</releaseYear>
+    </movie>
+    
+    <movie>
+        <title>The Matrix</title>
+        <director>Lana Wachowski,Lilly Wachowski</director>
+        <genre>Action, Sci-Fi</genre>
+        <releaseYear>1999</releaseYear>
+    </movie>
+</Movies>
+<Games>
+    <Game>
+        <title>ARMA</title>
+        <genre>Action, Shooter</genre>
+        <releaseYear>2006</releaseYear>
+    </Game>
+    <Game>
+        <title>Battlefield 5</title>
+        <genre>Action, Shooter</genre>
+        <releaseYear>2018</releaseYear>
+    </Game>
+    <Game>
+        <title>The 11th Hour</title>
+        <genre>Puzzle, Horror</genre>
+        <releaseYear>1999</releaseYear>
+    </Game>
+    <Game>
+        <title>Final Fantasy XI</title>
+        <genre>MMORPG</genre>
+        <releaseYear>2002</releaseYear>
+    </Game>
+    <Game>
+        <title>Lineage</title>
+        <genre>MMORPG</genre>
+        <releaseYear>1998</releaseYear>
+    </Game>
+    <Game>
+        <title>The Sims</title>
+        <genre>Simlation</genre>
+        <releaseYear>2014</releaseYear>
+    </Game>
+</Games>
+</review_list>
